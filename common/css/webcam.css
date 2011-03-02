@@ -1,0 +1,213 @@
+body 
+{
+background: #ffffff;      
+margin: 0px;
+padding: 0px;
+font-size: 12px;
+font-family: 'Lucida Grande', Verdana, sans-serif;
+font-weight: bold;
+}
+
+input
+{
+    width:300px;
+    height:100px;
+    font-size:24px;
+    position:relative;
+    left:08px;
+    top:40px;
+    cursor:pointer;
+}
+
+.button_hide
+{
+    width:68px;
+    height:31px;
+    cursor:pointer;
+}
+.button_hide p
+{
+    visibility:hidden;
+}
+
+.button
+{
+    background:url(../../image/button.png) no-repeat;
+    width:68px;
+    height:31px;
+    cursor:pointer;
+}
+
+.button p
+{
+    margin:0;
+    padding:8px 10px;
+    color:#cccccc;
+}
+#wc1_option
+{
+    position:absolute;
+    left:5px;
+    top:5px;
+}
+#wc1_snapshot
+{
+    position:absolute;
+    left:120px;
+    top:5px;
+}
+#wc1_snapshot p
+{
+    padding-left:2px;
+}
+#wc1_control
+{
+    position:absolute;
+    left: 247px;
+    top:5px;
+}
+#wc1_control p
+{
+}
+#wc1_arrows
+{
+    position:absolute;
+    top:50px;
+    left:5px;
+}
+.arrow
+{
+    position:relative;
+    float:left;
+    cursor:pointer;
+}
+.arrow_left
+{
+    width:41px;
+    height:73px;
+    top:55px;
+    background:url(../../image/left_arrow.png) no-repeat;
+}
+.arrow_right
+{
+    width:41px;
+    height:73px;
+    top:55px;
+    left:225px;
+    background:url(../../image/right_arrow.png) no-repeat;
+}
+.arrow_up
+{
+    height:41px;
+    width:73px;
+    left:30px;
+    background:url(../../image/up_arrow.png) no-repeat;
+}
+.arrow_down
+{
+    height:41px;
+    width:73px;
+    left:-45px;
+    top:140px;
+    background:url(../../image/down_arrow.png) no-repeat;
+}
+.arrow_scan
+{
+    display:none;
+    position:relative;
+    top:148px;
+    background:url(../../image/button.png) no-repeat;
+}
+.arrow_scan p
+{
+    position:relative;
+    top:-65px;
+    margin:0;
+    padding:0;
+    padding-left:18px;
+    width:20px;
+    color:#cccccc;
+}
+.message
+{
+    float:left;
+    color:#cccccc;
+}
+#wc1_message
+{
+    position:absolute;
+    top:48px;
+    left:132px;
+}
+/*WEBCAM 2*/
+#wc2_option
+{
+    position:absolute;
+    left:5px;
+    top:248px;
+}
+#wc2_option p
+{
+    padding-left:10px;
+}
+#wc2_snapshot
+{
+    position:absolute;
+    left:120px;
+    top:248px;
+}
+#wc2_snapshot p
+{
+    padding-left:2px;
+}
+#wc2_control
+{
+    position:absolute;
+    left: 247px;
+    top:248px;
+}
+#wc2_arrows
+{
+    position:absolute;
+    top:290px;
+    left:5px;
+}
+#wc2_message
+{
+    position:absolute;
+    top:290px;
+    left:132px;
+}
+#timeoutMsg
+{
+    font-size:22px;
+    position:relative;
+    left:2px;
+}
+.webcam
+{
+    width:320px;
+    height:240px;
+}
+
+.loading
+{   
+    position:relative;
+    top:70px;
+    left:105px;
+}
+
+#leftContainer
+{
+width: 320px;
+height:240px;
+margin-bottom:1px;
+}
+
+
+#rightContainer
+{
+width: 320px;
+height:240px;
+}
+

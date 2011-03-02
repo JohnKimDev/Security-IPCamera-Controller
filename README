@@ -1,0 +1,37 @@
+This is a PHP proxy script for IP Camera controller.
+
+* Pan control
+* Scan control
+* Save multiple camera image
+* Custom Message on a camera image
+* Date/Time Stamp on a camera image
+* Design to fit best for IPhone/IPod 
+
+==================================================================================================================
+
+For the first release, the code is designed to fit best for iphone/ipod devices. 
+
+I wrote this script to check my home security IP Cameras when I am on the road.
+I could just open the IP cameras' ports to public and access the ip cameras directly 
+but then it will be too risky to have anyone in the world have access directly to the cameras. 
+The IP cameara has own very basic login system, but it is very easily break into. 
+In addition, I have multiple security cameras and I only have one dynamic IP at home. 
+Plus, the camera sends a 640x480 image which is too big for an iphone/ipod device.
+Iphone's 3G data stream was too weak for smooth mjpg. 
+
+Solution:
+I wrote this proxy script to dynamically resize the IP camera's images and add custom 
+text & time stamp on fly. You can also easily control Camera's Pan & Scan. And with one click
+button, you can save the multiple images.
+
+With simple code change, the script should work with any IP camera but one I use is this one.
+
+http://www.amazon.com/Foscam-FI8918W-Wireless-Camera-Viewing/dp/B0046710G6
+
+Note: With this script alone does NOT have any web security function. I use this scipt with apache & SSL Certification 
+access control. Future update will focus on the web access security.
+
+==================================================================================================================
+
+update the camera's IP and login information in
+lib/webcam_access.inc 
